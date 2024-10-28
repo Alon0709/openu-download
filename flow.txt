@@ -1,0 +1,7 @@
+first: action getCollection, we get the ids of the playlists for step2
+second: action getPlaylist, we get the cipher of the videos for step3
+third: player.php?mediaid we use the cipher id and get back html with vars with the paths we need to get the video, in partical, we want the hls url
+4: hls: we use the url from 3 and get the url path to the playlist url
+5: playlist: we get the path to the chunklist with the highest bandwith(higher res) and go to 6
+6: chunklist: we use the params from 5 and get the chunklist of the m3u8 file
+7: using data got from third and 6 we can begin to get all the chunklist clips in order in to create a full mp4
