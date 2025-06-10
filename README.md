@@ -19,3 +19,7 @@ two: chunklist_b.....  we want to copy the url of the request and past it in the
 ![image](https://github.com/user-attachments/assets/e4f85c70-f0a0-422a-bb90-27e748a51d21)
 ![image](https://github.com/user-attachments/assets/9f0a4b88-bda6-4f7a-afb3-a4f0a8ea8299)
 3. name the video how you wish and write in console "python run_streaming.py" and enjoy
+
+# downloading ffmpeg on windows.
+while i could write the code to use diffrent lib in windows(not gonna happen), the best way to download ffmpeg is to just do "winget install ffmpeg" in powershell
+![image](https://github.com/user-attachments/assets/602db12d-342b-4c7b-89c2-32c6311b1ac8)
