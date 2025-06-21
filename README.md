@@ -1,5 +1,6 @@
 # Openu download
 * dont expect this script to work forever, if the univirsity change their site it might well break
+* the scrip origanly was designed for linux, it will work on Windows (probaly) but there could be problems.
 ## Requiements:
 * Python
 * ffmpeg
